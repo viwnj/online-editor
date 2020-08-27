@@ -1,3 +1,4 @@
+![code editor](https://github.com/viwnj/online-editor/blob/master/images/editor.png)
 
 Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -18,6 +19,12 @@ You will also see any lint errors in the console.
 
 ## Project description
 This is a very basic code editor that consumes data from and talks to an external API. At the moment you can only edit, save and delete the available files.
+
+## Key features
+ - Use CTRL+S/Command+S on the code editor to save the file
+ - Click on a file to open it on a tab
+ - Use the delete button (next to file name on sidebar) to delete file
+ - Open a file through query parameters. E.g: ?file=editor/src/main/Hello.java
 
 ## Core dependencies
  - `styled-components`
