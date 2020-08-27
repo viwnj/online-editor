@@ -20,6 +20,12 @@ You will also see any lint errors in the console.
 ## Project description
 This is a very basic code editor that consumes data from and talks to an external API. At the moment you can only edit, save and delete the available files.
 
+## Key features
+ - Use CTRL+S/Command+S on the code editor to save the file
+ - Click a file to open it on a tab
+ - Use the delete button (next to file name on sidebar) to delete file
+
+
 ## Core dependencies
  - `styled-components`
  - `redux`
