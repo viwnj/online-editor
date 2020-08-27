@@ -15,24 +15,6 @@ interface FiletreeRequestDTO {
   status: number;
   data: FileDTO[];
 }
-
-export const getFiles = () => {
-  return async (dispatch: Dispatch) => {
-    try {
-      dispatch({ type: CONSTANTS.FILES_REQUEST_PENDING });
-      const request: FilesRequestDTO = await api.get('/files');
-      dispatch({
-        type: CONSTANTS.FILES_REQUEST_SUCCESS,
-        files: request.data,
-      });
-    } catch {
-      dispatch({
-        type: CONSTANTS.FILES_REQUEST_SUCCESS,
-      });
-    }
-  };
-};
-
 export const pushTab = (fileId: number) => {
   return { type: CONSTANTS.OPEN_TAB, fileId };
 };
