@@ -22,7 +22,7 @@ This is a very basic code editor that consumes data from and talks to an externa
 
 ## Key features
  - Use CTRL+S/Command+S on the code editor to save the file
- - Click a file to open it on a tab
+ - Click on a file to open it on a tab
  - Use the delete button (next to file name on sidebar) to delete file
 
 
