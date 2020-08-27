@@ -21,7 +21,7 @@ You will also see any lint errors in the console.
 This is a very basic code editor that consumes data from and talks to an external API. At the moment you can only edit, save and delete the available files.
 
 ## Key features
- - Use CTRL+S/Command+S on the code editor to save the file
+ - Use CTRL+S/Command+S (not tested on MAC, might not work) on the code editor to save the file
  - Click on a file to open it on a tab
  - Use the delete button (next to file name on sidebar) to delete a file
  - Open a file through query parameters. E.g: ?file=editor/src/main/Hello.java
