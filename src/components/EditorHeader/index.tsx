@@ -11,13 +11,6 @@ interface IProps extends RouteComponentProps {
 }
 
 const EditorHeader: React.FC<IProps> = ({ openFiles, history }) => {
-  React.useEffect(() => {
-    console.log({ openFiles });
-    if (openFiles.length === 0) {
-      history.replace('/');
-    }
-  }, [history, openFiles]);
-
   return (
     <Container>
       {openFiles.map((file: FileNode) => (
