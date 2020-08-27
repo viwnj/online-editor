@@ -49,6 +49,7 @@ const Sidebar: React.FC<Props> = ({ filetree }) => {
     }
     const F = (
       <File
+        key={item.state.name}
         selected={selectedFile === item.state.id}
         onClick={handleFileClick}
         {...item.state}
