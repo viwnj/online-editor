@@ -24,7 +24,7 @@ This is a very basic code editor that consumes data from and talks to an externa
  - Use CTRL+S/Command+S on the code editor to save the file
  - Click on a file to open it on a tab
  - Use the delete button (next to file name on sidebar) to delete file
-
+ - Open a file through query parameters. E.g: ?file=editor/src/main/Hello.java
 
 ## Core dependencies
  - `styled-components`
